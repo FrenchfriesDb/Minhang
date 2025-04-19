@@ -1,0 +1,38 @@
+[
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "x = 1\nis_Public = True\nif is_Public == False:\n    print(\"This is a private course\")\nelse:\n    print(\"This is a public course\")\nstudents_count = 1000\nrating = 4.99\nprint(students_count)\nprint(type(students_count))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "is_Public",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "is_Public = True\nif is_Public == False:\n    print(\"This is a private course\")\nelse:\n    print(\"This is a public course\")\nstudents_count = 1000\nrating = 4.99\nprint(students_count)\nprint(type(students_count))\nprint(type(x))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "students_count",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "students_count = 1000\nrating = 4.99\nprint(students_count)\nprint(type(students_count))\nprint(type(x))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "rating",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "rating = 4.99\nprint(students_count)\nprint(type(students_count))\nprint(type(x))",
+        "detail": "main",
+        "documentation": {}
+    }
+]

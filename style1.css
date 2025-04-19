@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-color: thistle;
+    
+}
+tr:nth-child(even) {
+    background-color: #
+}
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(150,212,212,0.4);
+}
+
+th:nth-child(even), td:nth-child(even) {
+    background-color: rgba(150,212,212,0.4);
+}
+
+tr:hover {background-color: #39b6ff;}
+th:hover {background-color: rgb(242, 168, 255);}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(87, 144, 224);
+}
+
+li {
+    float: left;
+    color:rgb(204, 130, 130)
+}
+
+li a {
+    display: block;
+    color:rgb(204, 130, 130);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(242, 168, 255);
+}
+
+div {
+    background-color: rgb(242, 168, 255);
+    width: 30%; /* Fixed conflicting width */
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #39b6ff;
+}
+
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+}
+
+div.mycontainer div {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #39b6ff;
+}
+span {
+    color: rgb(204, 130, 130);
+    border: 3px dotted rgb(204, 130, 130);
+    padding: 20px;
+    margin: 10px;   
+}
+
+#myHeader {
+    background-color: rgb(87, 144, 224);
+    color: black; /* Added missing semicolon */
+    padding: 50px;          
+    text-align: center;
+}
+
+iframe {
+    border: 2px dashed rgb(204, 130, 130);
+        #myHeader {
+        background-color: rgb(87, 144, 224);
+        color: black; /* Added missing semicolon */
+        padding: 50px;          
+        text-align: center;
+    }
+    
+    div {
+        background-color: rgb(242, 168, 255);
+        width: 30%; /* Fixed conflicting width */
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid #39b6ff;
+    }
+    
+    div.mycontainer {
+        width: 100%;
+        overflow: auto;
+    }
+    
+    div.mycontainer div {
+        width: 100%;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid #39b6ff;
+    }padding: 20px;
+    margin: 10px;
+}
